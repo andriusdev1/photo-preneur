@@ -192,30 +192,29 @@ i {
 	text-align: center;
 }
 
-main {
+.text-box {
+	background-color: rgb(95, 95, 95);
+	border: 1px solid rgb(128, 0, 0);
 	display: flow-root;
 }
 .about-img {
-	width: 100%;
 	max-width: 500px;
-	margin-right: 10px;
 	float: left;
-}
 
-.about-wrapper {
-	margin-top: 100px;
-}
-
-.text-box-inner {
-	margin-top: 2em;
+	border: 5px solid rgb(146, 153, 51);
 }
 
 .text-box h2 {
-	font-size: 42px;
+	font-size: 4rem;
+}
+
+.text-box h4 {
+	font-size: 3rem;
 }
 
 .text-box p {
-	font-size: 16px;
+	font-size: 2rem;
+	width: 100%;
 }
 
 .gallery-section {
