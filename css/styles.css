@@ -10,7 +10,7 @@ html {
 }
 
 body {
-	background-color: rgb(22, 22, 22);
+	background-color: rgb(20, 20, 20);
 	color: rgb(251, 251, 251);
 	font-family: "Lato", sans-serif;
 	line-height: 1.5;
@@ -58,7 +58,6 @@ i {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .hero-home > * {
@@ -73,7 +72,7 @@ i {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background: rgba(21, 21, 21, 0.817);
+	background: rgba(20, 20, 20, 0.932);
 }
 
 .slide-out-nav {
@@ -111,7 +110,7 @@ i {
 .slide-out-nav .nav-item-wrap span {
 	position: absolute;
 	left: 60px;
-	background: rgb(0, 0, 0);
+	background: rgba(224, 26, 79, 1);
 	padding: 8px 12px;
 	display: inline-block;
 	width: 85px;
@@ -135,10 +134,8 @@ i {
 	position: absolute;
 	left: -10px;
 	top: 38%;
-	border: 5px solid transparent;
 	margin-left: 0px;
 	margin-bottom: -4px;
-	border-right-color: rgb(0, 0, 0);
 }
 
 .slide-out-nav .nav-item-wrap i {
@@ -195,29 +192,35 @@ i {
 	text-align: center;
 }
 
-.about-wrapper {
-	background-color: #000000;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+main {
+	display: flow-root;
 }
-
 .about-img {
 	width: 100%;
 	max-width: 500px;
-	border-radius: 5px;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-right: 10px;
+	float: left;
 }
 
-.about-text {
-	font-size: clamp(1rem, 2.5vw, 2rem);
-	width: 50%;
+.about-wrapper {
+	margin-top: 100px;
+}
+
+.text-box-inner {
+	margin-top: 2em;
+}
+
+.text-box h2 {
+	font-size: 42px;
+}
+
+.text-box p {
+	font-size: 16px;
 }
 
 .gallery-section {
-	padding-left: 2em;
+	padding-left: 1em;
 }
-
 .gallery-wrapper {
 	padding-right: 1em;
 	padding-left: 1em;
@@ -379,6 +382,8 @@ form button {
 
 	background-color: rgb(21, 21, 21);
 }
+
+/*Media Queries for a mobile device*/
 
 @media screen and (max-width: 600px) {
 	.gallery-wrapper > div:nth-of-type(1) {
